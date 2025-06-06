@@ -8,10 +8,10 @@ The student management system is a software application designed to manage and t
 ### Identifying Stakeholders
 The stakeholders of the student management system include:
 
-<li> Students: The primary users of the system, who will use it to access their academic records, course schedules, and other relevant information.</li>
-<li> Teachers: The instructors who will use the system to manage their courses, track student progress, and communicate with students. </li>
-<li> Administrators: The school or university staff responsible for managing the system, maintaining student records, and generating reports. </li>
-<li> Parents: The guardians of students who may use the system to monitor their child's academic progress. </li>
+<li>Students: The primary users of the system, who will use it to access their academic records, course schedules, and other relevant information.</li>
+<li>Teachers: The instructors who will use the system to manage their courses, track student progress, and communicate with students. </li>
+<li>Administrators: The school or university staff responsible for managing the system, maintaining student records, and generating reports. </li>
+<li>Parents: The guardians of students who may use the system to monitor their child's academic progress. </li>
 
 ### Gathering Requirements
 To gather requirements, we can use various techniques such as:
@@ -48,24 +48,24 @@ To gather requirements, we can use various techniques such as:
 The requirements can be categorized into:
 
 **Functional Requirements:**
-<li>User authentication and authorization
-Student information management
-Course management
-Grade management
-Reporting and analytics</li>
+<li> User authentication and authorization</li>
+<li> Student information management</li>
+<li> Course management</li>
+<li> Grade management</li>
+<li> Reporting and analytics</li>
 
 **Non-Functional Requirements:**
-<li>Performance: The system should respond to user requests within 2 seconds.
-Security: The system should ensure the confidentiality, integrity, and availability of student data.
-Usability: The system should be easy to use and navigate.
-Scalability: The system should be able to handle an increasing number of users and data.</li>
+<li> Performance: The system should respond to user requests within 2 seconds.</li>
+<li> Security: The system should ensure the confidentiality, integrity, and availability of student data.</li>
+<li> Usability: The system should be easy to use and navigate.</li>
+<li> Scalability: The system should be able to handle an increasing number of users and data.</li>
 
 ### Analyzing Requirements
 The requirements can be analyzed using techniques such as:
 
-<li>Use Case Diagrams: To visualize the interactions between stakeholders and the system.
-Sequence Diagrams: To illustrate the sequence of events in the system.
-Class Diagrams: To model the data structures and relationships in the system.</li>
+<li> Use Case Diagrams: To visualize the interactions between stakeholders and the system.</li>
+<li> Sequence Diagrams: To illustrate the sequence of events in the system.</li>
+<li> Class Diagrams: To model the data structures and relationships in the system.</li>
 
 ### Prioritizing Requirements
 The requirements can be prioritized using techniques such as:
@@ -82,21 +82,21 @@ The requirements can be validated using techniques such as:
 <li> Testing: Conducting unit testing, integration testing, and system testing to ensure the requirements are met.</li>
 
 ### Example UseCase: 
-#### Use Case: Student Information Management
-#### Primary Actor: Administrator
-#### Goal: To manage student information
-#### Precondition: The administrator is logged in to the system
-#### Triggers: The administrator wants to add, update, or delete student information
-#### Description:
+**Use Case:** Student Information Management
+**Primary Actor:** Administrator
+**Goal:** To manage student information
+**Precondition:** The administrator is logged in to the system
+**Triggers:** The administrator wants to add, update, or delete student information
+**Description:**
 1. The administrator logs in to the system.
 2. The administrator navigates to the student information management page.
 3. The administrator adds, updates, or deletes student information.
 4. The system validates the input data.
 5. The system updates the student information database.
-#### Postcondition: The student information is updated in the database.
+**Postcondition:** The student information is updated in the database.
 
 ### Example Code:
-#### Student Information Management System
+**Student Information Management System**
 class Student:
     def __init__(self, name, email, grade):
         self.name = name
@@ -122,11 +122,11 @@ class StudentInformationSystem:
                 del self.students[i]
                 break
 
-#### Create a student information system
+Create a student information system
 sis = StudentInformationSystem()
 
-#### Create a student
+Create a student
 student = Student("John Doe", "johndoe@example.com", "A")
 
-#### Add the student to the system
+Add the student to the system
 sis.add_student(student)
