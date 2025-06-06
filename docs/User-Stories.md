@@ -56,20 +56,24 @@ The following user stories are based on the requirements gathered from stakehold
 - The system updates the course schedule and grades in real-time.
 
 ## Example User-Story
-Feature: Student Login
-  As a student, I want to be able to log in to the system so that I can access my academic records.
 
-  Scenario: Successful Login
-    Given I am on the login page
-    When I enter my valid username and password
-    Then I should be logged in to the system
-    And I should see my academic records
+**Feature:** Student Login  
+As a student, I want to be able to log in to the system so that I can access my academic records.
 
-  Scenario: Invalid Login
-    Given I am on the login page
-    When I enter my invalid username or password
-    Then I should see an error message
-    And I should not be logged in to the system
+### Scenario: Successful Login
+
+- **Given** I am on the login page  
+- **When** I enter my valid username and password  
+- **Then** I should be logged in to the system  
+- **And** I should see my academic records
+
+### Scenario: Invalid Login
+
+- **Given** I am on the login page  
+- **When** I enter my invalid username or password  
+- **Then** I should see an error message  
+- **And** I should not be logged in to the system
+
     
 ## Example code for user story:
 # Student Login System
@@ -91,15 +95,16 @@ class StudentLoginSystem:
                 return True
         return False
 
-# Create a student login system
+##### Create a student login system
 sls = StudentLoginSystem()
 
-# Create a student
+##### Create a student
 student = Student("johndoe", "password123")
 
-# Add the student to the system
+##### Add the student to the system
 sls.add_student(student)
 
-# Test the login function
+##### Test the login function
 print(sls.login("johndoe", "password123"))  # Should print: True
+
 print(sls.login("johndoe", "wrongpassword"))  # Should print: False
