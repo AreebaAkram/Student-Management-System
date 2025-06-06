@@ -1,6 +1,6 @@
 # Project Plan for Student Management System
 
-Project plan was developed using AI tool which is IBM Watson. The chat link is: [Linl](https://eu-de.dataplatform.cloud.ibm.com/wx/prompts/sessions/ace7dc7e-7712-4b1c-8bc8-7a74f3938aa9?project_id=1739216a-c865-46cd-9e32-4651efe49011&context=wx)
+Project plan was developed using AI tool which is IBM Watson. The chat link is: [Link](https://eu-de.dataplatform.cloud.ibm.com/wx/prompts/sessions/ace7dc7e-7712-4b1c-8bc8-7a74f3938aa9?project_id=1739216a-c865-46cd-9e32-4651efe49011&context=wx)
 
 ## Project Overview
 The **Student Management System** is a software application designed to manage and track student information, academic records, and other related data. The system will be developed using a combination of technologies including **Python**, **Django**, and **MySQL**.
@@ -155,7 +155,7 @@ class ProjectPlan:
         self.tasks.remove(task)
 
 
-# Create a project plan
+#### Create a project plan
 project_plan = ProjectPlan(
     "Student Management System",
     "A software application to manage student information",
@@ -163,21 +163,21 @@ project_plan = ProjectPlan(
     100000
 )
 
-# Add tasks to the project plan
-project_plan.add_task("Project planning")
-project_plan.add_task("Requirements gathering")
-project_plan.add_task("Design and prototyping")
-project_plan.add_task("Development")
-project_plan.add_task("Testing and quality assurance")
-project_plan.add_task("Deployment")
-project_plan.add_task("Maintenance")
+#### Add tasks to the project plan
+- project_plan.add_task("Project planning")
+- project_plan.add_task("Requirements gathering")
+- project_plan.add_task("Design and prototyping")
+- project_plan.add_task("Development")
+- project_plan.add_task("Testing and quality assurance")
+- project_plan.add_task("Deployment")
+- project_plan.add_task("Maintenance")
 
-# Print the project plan details
-print(project_plan.name)
-print(project_plan.description)
-print(project_plan.timeline)
-print(project_plan.budget)
-print(project_plan.tasks)
+#### Print the project plan details
+- print(project_plan.name)
+- print(project_plan.description)
+- print(project_plan.timeline)
+- print(project_plan.budget)
+- print(project_plan.tasks)
 
 
 ## Example Gantt Chart for the project plan
