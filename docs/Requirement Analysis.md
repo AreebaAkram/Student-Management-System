@@ -82,18 +82,19 @@ The requirements can be validated using techniques such as:
 <li> Testing: Conducting unit testing, integration testing, and system testing to ensure the requirements are met.</li>
 
 ### Example UseCase: 
-<li> Use Case: Student Information Management</li>
-<li> Primary Actor: Administrator</li>
-<li> Goal: To manage student information</li>
-<li> Precondition: The administrator is logged in to the system</li>
-<li> Triggers: The administrator wants to add, update, or delete student information</li>
-<li> Description:</li>
+#### Use Case: Student Information Management
+##### Primary Actor: Administrator
+##### Goal: To manage student information
+##### Precondition: The administrator is logged in to the system
+##### Triggers: The administrator wants to add, update, or delete student information
+##### Description:
 1. The administrator logs in to the system.
 2. The administrator navigates to the student information management page.
 3. The administrator adds, updates, or deletes student information.
 4. The system validates the input data.
 5. The system updates the student information database.
-<li> Postcondition: The student information is updated in the database.</li>
+##### Postcondition: The student information is updated in the database.
+
 
 ### Example Code:
 
