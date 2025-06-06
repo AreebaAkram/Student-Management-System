@@ -87,7 +87,7 @@ The requirements can be validated using techniques such as:
 <li> Goal: To manage student information</li>
 <li> Precondition: The administrator is logged in to the system</li>
 <li> Triggers: The administrator wants to add, update, or delete student information</li>
-<li></li> Description:</li>
+<li> Description:</li>
 1. The administrator logs in to the system.
 2. The administrator navigates to the student information management page.
 3. The administrator adds, updates, or deletes student information.
