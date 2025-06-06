@@ -138,14 +138,15 @@ The project will be closed once the following criteria are met:
 >  *Maintained by the Student Management System Development Team*  
 >  *Estimated completion: 20 weeks from project kickoff*
 
-## Example code for the project plan
-# Project Plan
+## Exampple code for project plan
+
 class ProjectPlan:
     def __init__(self, name, description, timeline, budget):
         self.name = name
         self.description = description
         self.timeline = timeline
         self.budget = budget
+        self.tasks = []
 
     def add_task(self, task):
         self.tasks.append(task)
@@ -153,8 +154,14 @@ class ProjectPlan:
     def remove_task(self, task):
         self.tasks.remove(task)
 
+
 # Create a project plan
-project_plan = ProjectPlan("Student Management System", "A software application to manage student information", 20, 100000)
+project_plan = ProjectPlan(
+    "Student Management System",
+    "A software application to manage student information",
+    20,
+    100000
+)
 
 # Add tasks to the project plan
 project_plan.add_task("Project planning")
@@ -165,12 +172,13 @@ project_plan.add_task("Testing and quality assurance")
 project_plan.add_task("Deployment")
 project_plan.add_task("Maintenance")
 
-# Print the project plan
+# Print the project plan details
 print(project_plan.name)
 print(project_plan.description)
 print(project_plan.timeline)
 print(project_plan.budget)
 print(project_plan.tasks)
+
 
 ## Example Gantt Chart for the project plan
 
