@@ -82,21 +82,22 @@ The requirements can be validated using techniques such as:
 <li> Testing: Conducting unit testing, integration testing, and system testing to ensure the requirements are met.</li>
 
 ### Example UseCase: 
-**Use Case:** Student Information Management
-**Primary Actor:** Administrator
-**Goal:** To manage student information
-**Precondition:** The administrator is logged in to the system
-**Triggers:** The administrator wants to add, update, or delete student information
-**Description:**
+<li> Use Case: Student Information Management</li>
+<li> Primary Actor: Administrator</li>
+<li> Goal: To manage student information</li>
+<li> Precondition: The administrator is logged in to the system</li>
+<li> Triggers: The administrator wants to add, update, or delete student information</li>
+<li></li> Description:</li>
 1. The administrator logs in to the system.
 2. The administrator navigates to the student information management page.
 3. The administrator adds, updates, or deletes student information.
 4. The system validates the input data.
 5. The system updates the student information database.
-**Postcondition:** The student information is updated in the database.
+<li> Postcondition: The student information is updated in the database.</li>
 
 ### Example Code:
-**Student Information Management System**
+
+##### Student Information Management System
 class Student:
     def __init__(self, name, email, grade):
         self.name = name
@@ -122,11 +123,11 @@ class StudentInformationSystem:
                 del self.students[i]
                 break
 
-Create a student information system
+##### Create a student information system
 sis = StudentInformationSystem()
 
-Create a student
+##### Create a student
 student = Student("John Doe", "johndoe@example.com", "A")
 
-Add the student to the system
+##### Add the student to the system
 sis.add_student(student)
